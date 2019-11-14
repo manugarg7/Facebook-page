@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu-container {
+    color: #fff;
+    background-color: rgb(32, 93, 207);  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+  }
+
+  .menu {
+    border: 1px solid rgb(32, 93, 207);  /* For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-container {
+    color: rgb(36, 82, 134);
+    background-color: rgb(233, 235, 240);
+    display: flex;
+    justify-content: center;
+  }
+
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .create{
+      width: 500px;
+      height: 900px;
+    justify-content: space-around;
+    align-items: center;
+  }
